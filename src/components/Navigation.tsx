@@ -21,14 +21,14 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3 group">
-            <img 
-              src={djLogo} 
-              alt="DJ Voice GH Logo" 
+            <img
+              src={djLogo}
+              alt="DJ Voice GH Logo"
               className="h-12 w-auto transition-transform duration-300 group-hover:scale-110"
             />
             <div className="hidden md:block">
               <h1 className="text-xl font-bold text-foreground">DJ VOICE GH</h1>
-              <p className="text-xs text-muted-foreground">The Tune Murderer</p>
+              <p className="text-xs text-muted-foreground">Tune Master II Official</p>
             </div>
           </a>
 
