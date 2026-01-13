@@ -52,7 +52,7 @@ const About = () => {
           {/* Image Side */}
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary shadow-red-glow">
-              <img 
+              <img
                 src={djLogo}
                 alt="DJ Voice GH"
                 className="w-full h-full object-cover"
@@ -66,24 +66,24 @@ const About = () => {
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-6">
               <span className="text-foreground font-medium">About Me</span>
             </div>
-            
+
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Meet <span className="text-primary">The Tune Murderer</span>
+              Meet <span className="text-primary">The tune master</span>
             </h2>
-            
+
             <div className="space-y-4 text-muted-foreground mb-8">
               <p className="text-lg leading-relaxed">
-                DJ Voice GH, also known as "The Tune Murderer," is one of Ghana's most celebrated DJs, 
+                DJ Voice GH, also known as "The tune master," is one of Ghana's most celebrated DJs,
                 known for delivering electrifying performances that set dance floors on fire.
               </p>
               <p className="text-lg leading-relaxed">
-                With over 5 years of experience in the industry, DJ Voice GH has mastered the art of 
-                reading crowds and creating unforgettable musical experiences. From intimate gatherings 
+                With over 5 years of experience in the industry, DJ Voice GH has mastered the art of
+                reading crowds and creating unforgettable musical experiences. From intimate gatherings
                 to massive festivals, every set is crafted with passion and precision.
               </p>
               <p className="text-lg leading-relaxed">
-                Specializing in Afrobeat, Hip Hop, Dancehall, and House music, DJ Voice GH brings 
-                together diverse sounds to create unique sonic journeys that resonate with audiences 
+                Specializing in Afrobeat, Hip Hop, Dancehall, and House music, DJ Voice GH brings
+                together diverse sounds to create unique sonic journeys that resonate with audiences
                 across all demographics.
               </p>
             </div>

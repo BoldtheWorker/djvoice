@@ -31,11 +31,11 @@ const Footer = () => {
               <img src={djLogo} alt="DJ Voice GH" className="h-16 w-auto" />
               <div>
                 <h3 className="text-xl font-bold text-foreground">DJ VOICE GH</h3>
-                <p className="text-sm text-primary">The Tune Murderer</p>
+                <p className="text-sm text-primary">The tune master</p>
               </div>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Ghana's premier DJ bringing unforgettable musical experiences to every event. 
+              Ghana's premier DJ bringing unforgettable musical experiences to every event.
               From intimate gatherings to massive festivals, we deliver excellence.
             </p>
             <div className="space-y-3">
@@ -60,7 +60,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.quickLinks.map((link) => (
                 <li key={link.name}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
@@ -77,7 +77,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.name}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
