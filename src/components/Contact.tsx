@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Facebook, Twitter, Youtube, Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -38,7 +38,8 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <Instagram size={24} />, href: "https://www.instagram.com/djvoicegh", label: "Instagram" },
+    { icon: <Instagram size={24} />, href: "https://www.instagram.com/djvoice_gh?igsh=MTEyamt1OWk5dnRvbA%3D%3D&utm_source=qr", label: "Instagram" },
+    { icon: <Music size={24} />, href: "https://www.tiktok.com/@dj.voice.gh", label: "TikTok" },
     { icon: <Facebook size={24} />, href: "https://www.facebook.com/djvoicegh", label: "Facebook" },
     { icon: <Twitter size={24} />, href: "https://twitter.com/djvoicegh", label: "Twitter" },
     { icon: <Youtube size={24} />, href: "https://www.youtube.com/@djvoicegh", label: "YouTube" },
@@ -70,9 +71,9 @@ const Contact = () => {
                   <label className="text-sm font-medium text-foreground mb-2 block">
                     First Name
                   </label>
-                  <Input 
-                    placeholder="John" 
-                    required 
+                  <Input
+                    placeholder="John"
+                    required
                     className="bg-background border-border"
                   />
                 </div>
@@ -80,9 +81,9 @@ const Contact = () => {
                   <label className="text-sm font-medium text-foreground mb-2 block">
                     Last Name
                   </label>
-                  <Input 
-                    placeholder="Doe" 
-                    required 
+                  <Input
+                    placeholder="Doe"
+                    required
                     className="bg-background border-border"
                   />
                 </div>
@@ -92,10 +93,10 @@ const Contact = () => {
                 <label className="text-sm font-medium text-foreground mb-2 block">
                   Email
                 </label>
-                <Input 
-                  type="email" 
-                  placeholder="john@example.com" 
-                  required 
+                <Input
+                  type="email"
+                  placeholder="john@example.com"
+                  required
                   className="bg-background border-border"
                 />
               </div>
@@ -104,10 +105,10 @@ const Contact = () => {
                 <label className="text-sm font-medium text-foreground mb-2 block">
                   Phone
                 </label>
-                <Input 
-                  type="tel" 
-                  placeholder="+233 XX XXX XXXX" 
-                  required 
+                <Input
+                  type="tel"
+                  placeholder="+233 XX XXX XXXX"
+                  required
                   className="bg-background border-border"
                 />
               </div>
@@ -116,9 +117,9 @@ const Contact = () => {
                 <label className="text-sm font-medium text-foreground mb-2 block">
                   Event Date
                 </label>
-                <Input 
-                  type="date" 
-                  required 
+                <Input
+                  type="date"
+                  required
                   className="bg-background border-border"
                 />
               </div>
@@ -127,16 +128,16 @@ const Contact = () => {
                 <label className="text-sm font-medium text-foreground mb-2 block">
                   Message
                 </label>
-                <Textarea 
-                  placeholder="Tell us about your event..." 
-                  required 
+                <Textarea
+                  placeholder="Tell us about your event..."
+                  required
                   rows={4}
                   className="bg-background border-border resize-none"
                 />
               </div>
 
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 className="w-full bg-primary hover:bg-primary/90 shadow-red-glow"
                 size="lg"
               >
